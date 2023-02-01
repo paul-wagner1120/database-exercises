@@ -2,6 +2,7 @@ DROP DATABASE IF EXISTS adlister_G_j_p_s_n;
 
 CREATE DATABASE adlister_G_j_p_s_n;
 
+
 USE adlister_G_j_p_s_n;
 
 CREATE TABLE users(
@@ -93,7 +94,7 @@ SELECT ads.title as Title From ads
 SELECT ads.title Posts FROM ads
     JOIN users u on ads.users_id = u.id
     WHERE u.id = 4;
-Collapse
+
 
 
 
